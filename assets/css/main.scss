@@ -2,3 +2,13 @@
 ---
 
 @import "bulma";
+
+#home {
+  &_header {
+    > .container {
+      > h1 {
+        color: red;
+      }
+    }
+  }
+}
