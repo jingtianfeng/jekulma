@@ -41,6 +41,10 @@ $purple: hsl($hue-primary, 50%, 30%);
 $strong-color: $turquoise;
 $strong-weight: normal;
 
+$radius-small: 2px;
+$radius: 4px;
+$radius-large: 20px;
+
 @import "bulma";
 
 #home {
