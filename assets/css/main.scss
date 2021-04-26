@@ -39,7 +39,9 @@ $turquoise: hsl($hue-primary, 40%, 50%);
 $blue: hsl($hue-primary, 50%, 75%);
 $purple: hsl($hue-primary, 50%, 30%);
 $strong-color: $turquoise;
-$strong-weight: normal;
+$strong-weight: inherit;
+$title-strong-color: $turquoise;
+$title-strong-weight: inherit;
 
 $radius-small: 2px;
 $radius: 4px;
