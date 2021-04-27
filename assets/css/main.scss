@@ -48,13 +48,3 @@ $radius: 4px;
 $radius-large: 20px;
 
 @import "bulma";
-
-#home {
-  &_header {
-    > .container {
-      > h1 {
-        color: red;
-      }
-    }
-  }
-}
