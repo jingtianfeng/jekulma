@@ -22,6 +22,33 @@
           href="/assets/css/main.css">
 </head>
 <body>
+<nav id="navbar" class="navbar container"
+     role="navigation" aria-label="main navigation">
+    <div id="navbar__brand" class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <img src="/assets/img/logo.png" alt="logo" width="112" height="28">
+        </a>
+        <a id="navbar__brand__burger" class="navbar-burger"
+           role="button" aria-label="menu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navbar__menu" class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" href="#">Home</a>
+        </div>
+    </div>
+</nav>
 {{ content }}
+<script>
+    const navbarBurger = document.getElementById('navbar__brand__burger')
+    const navbarMenu = document.getElementById('navbar__menu')
+    navbarBurger.addEventListener('click', () => {
+        navbarBurger.classList.toggle('is-active')
+        navbarMenu.classList.toggle('is-active')
+    })
+</script>
 </body>
 </html>
